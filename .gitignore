@@ -1,59 +1,67 @@
-# General
-*.log
-.DS_Store
-Thumbs.db
-
-# Node.js / npm / yarn / pnpm
+# Node.js and npm
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
-node_modules/
-coverage/
-
-# React Native / Expo
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# Expo & React Native
 .expo/
-android/
-iOS/
-*.jks
-*.keystore
-launch.json
+.expo-shared/
+.expo-dev-client/
+.expo-web/
+.expo-app/
+.expo-packages/
+.expo/cache/
+.expo/local-cli/
+# Metro Bundler
 metro-cache/
-stack.log
-
-# TypeScript / Build Outputs
+# Generated files
 dist/
 build/
-*.tsbuildinfo
-
-# IDE / Editor specific
+# iOS
+ios/Pods/
+ios/DerivedData/
+ios/build/
+*.xcworkspace
+*.xcuserdata
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/.idea/
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**
+fastlane/test_output/**
+# Logs
+*.log
+*.log.*
+# Temp files
+tmp/
+temp/
+# VS Code settings
 .vscode/
+# JetBrains IDEs
 .idea/
 *.iml
-*.env
-.env.local
-.env.development.
-.env.test.
-.env.production.
-
-# Testing
-*.test.js.snap
-*.snap
-jest-coverage/
-
-# macOS
+# Miscellaneous
 .DS_Store
+Thumbs.db
+.env
+.env.*
+# Jest coverage
+coverage/
+# Testing
+__tests__/**/coverage/**
+# Detox reports
+artifacts/**
+# MacOS
 .AppleDouble
 .LSOverride
-
 # Windows
-pagefile.sys
-swapfile.sys
-hiberfil.sys
-
-# Various IDEs/Editors
-.project
-.ｏｉｎｔｅｒｎａｌ
-.sublime-project
-.sublime-workspace
-.idea/
+Desktop.ini
+$RECYCLE.BIN/
+# End of .gitignore
