@@ -1,41 +1,45 @@
-# Bug Report
+---
+name: Bug Report
+about: Create a report to help us improve
+title: '[BUG]: '
+labels: 'bug'
+assignees: ''
 
-Thank you for helping improve ScreenBloom! Please fill out this report to help us diagnose and fix the issue.
+---
 
-**To ensure the fastest resolution, please provide as much detail as possible.**
+## 🐛 Bug Description
+A clear and concise description of what the bug is. What happened, and what did you expect to happen?
 
-## Problem Description
+## 📱 App Information
+- **Device:** (e.g., iPhone 14 Pro, Samsung Galaxy S23)
+- **OS Version:** (e.g., iOS 17.2, Android 14)
+- **App Version:** (e.g., 1.2.3)
+- **Build Number:** (e.g., 123)
+- **Installation Method:** (e.g., TestFlight, Google Play, direct APK)
 
-*   **What is the unexpected behavior?**
-    (Describe the bug clearly and concisely.)
+## 🔁 Steps to Reproduce
+Provide detailed steps to reproduce the behavior.
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-*   **What is the expected behavior?**
-    (Describe what you expected to happen.)
+## ✅ Expected Behavior
+A clear and concise description of what you expected to happen.
 
-## Environment
+## 📸 Screenshots / Videos
+If applicable, add screenshots or a screen recording to help explain your problem. Use a tool like `loom.com` for videos.
 
-*   **App Version:** (e.g., v1.2.0)
-*   **Device:** (e.g., iPhone 14 Pro, Samsung Galaxy S23)
-*   **Operating System:** (e.g., iOS 17.1.2, Android 14)
+## 📱 Console Logs
+Please provide any relevant logs from Expo development server (`npx expo start`) or device logs (Xcode Console / Android Studio Logcat). Use a code block.
 
-## Steps to Reproduce
+text
+[Paste logs here]
 
-1.  (Describe the exact steps to trigger the bug. Be specific!)
-2.  
-3.  
-4.  
 
-## Additional Information
+## 🧑‍💻 Additional Context
+Add any other context about the problem here. For example, if this is related to a specific focus session, a particular blocked app, or a mindfulness game.
 
-*   **Screenshots/Recordings:** (If possible, attach any relevant screenshots or screen recordings. Use the GitHub interface to upload.)
+---
 
-*   **Logs:** (If available, please paste any relevant error messages or console logs from the app or device.)
-
-*   **Possible Cause (Optional):**
-    (If you have any ideas about what might be causing the bug, please share them here.)
-
-## Related AI Agent Directives
-
-This bug report will be processed with adherence to the Apex Technical Authority's directives for the `ScreenBloom-Social-Media-Detox-Mobile-App` repository. Key principles include leveraging React Native and Expo, ensuring a positive user experience with mindful design, and maintaining robust error handling for all features.
-
-For detailed technical specifications and troubleshooting guidelines, please refer to the [AGENTS.md](https://github.com/chirag127/ScreenBloom-Social-Media-Detox-Mobile-App/blob/main/AGENTS.md) file.
+⭐ **Thank you for contributing to ScreenBloom!** Your detailed report helps us create a more robust digital wellness experience for everyone.
